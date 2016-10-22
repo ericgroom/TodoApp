@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA3E454C1DBAAD26009716C8 /* AddTodoItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E454B1DBAAD26009716C8 /* AddTodoItemController.swift */; };
+		BA3E45501DBAB967009716C8 /* CompletedTodoItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E454F1DBAB967009716C8 /* CompletedTodoItemsController.swift */; };
 		BAB688831DBA7798005D9991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB688821DBA7798005D9991 /* AppDelegate.swift */; };
 		BAB688851DBA7798005D9991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB688841DBA7798005D9991 /* ViewController.swift */; };
 		BAB688881DBA7798005D9991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB688861DBA7798005D9991 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA3E454B1DBAAD26009716C8 /* AddTodoItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoItemController.swift; sourceTree = "<group>"; };
+		BA3E454F1DBAB967009716C8 /* CompletedTodoItemsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompletedTodoItemsController.swift; path = ../CompletedTodoItemsController.swift; sourceTree = "<group>"; };
 		BAB6887F1DBA7798005D9991 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB688821DBA7798005D9991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB688841DBA7798005D9991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,9 +58,11 @@
 		BAB688811DBA7798005D9991 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				BA3E454F1DBAB967009716C8 /* CompletedTodoItemsController.swift */,
 				BAB688821DBA7798005D9991 /* AppDelegate.swift */,
 				BAB688841DBA7798005D9991 /* ViewController.swift */,
 				BAB688861DBA7798005D9991 /* Main.storyboard */,
+				BA3E454B1DBAAD26009716C8 /* AddTodoItemController.swift */,
 				BAB688891DBA7798005D9991 /* Assets.xcassets */,
 				BAB6888B1DBA7798005D9991 /* LaunchScreen.storyboard */,
 				BAB6888E1DBA7798005D9991 /* Info.plist */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAB688851DBA7798005D9991 /* ViewController.swift in Sources */,
+				BA3E454C1DBAAD26009716C8 /* AddTodoItemController.swift in Sources */,
+				BA3E45501DBAB967009716C8 /* CompletedTodoItemsController.swift in Sources */,
 				BAB688831DBA7798005D9991 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				BAB688931DBA7798005D9991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
