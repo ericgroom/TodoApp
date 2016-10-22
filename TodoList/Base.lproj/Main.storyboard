@@ -26,7 +26,7 @@
                                         <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2Eu-w3-aU7" id="Jhf-fu-z85">
-                                            <frame key="frameInset" width="375" height="44"/>
+                                            <frame key="frameInset" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -44,7 +44,7 @@
                     <navigationItem key="navigationItem" title="Todo List" id="Cyj-Rx-lHM">
                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="tof-oB-VAc">
                             <connections>
-                                <segue destination="Uxm-O8-jyu" kind="push" identifier="CompletedTodoItemsSegue" id="wcc-vN-S6i"/>
+                                <segue destination="e02-5z-8tZ" kind="push" identifier="CompletedTodoItemsSegue" id="6hc-ex-0E4"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="E59-rT-RLU">
@@ -61,27 +61,27 @@
             </objects>
             <point key="canvasLocation" x="1076" y="111.99400299850076"/>
         </scene>
-        <!--Completed Todo Items-->
-        <scene sceneID="fkL-2m-2Mg">
+        <!--Completed todo items-->
+        <scene sceneID="u9B-nl-rdN">
             <objects>
-                <viewController id="Uxm-O8-jyu" customClass="CompletedTodoItemsController" customModule="TodoList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="e02-5z-8tZ" customClass="CompletedTodoItemsController" customModule="TodoList" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="efM-eT-vxg"/>
-                        <viewControllerLayoutGuide type="bottom" id="R5P-6U-Xn3"/>
+                        <viewControllerLayoutGuide type="top" id="8g3-Xp-LgI"/>
+                        <viewControllerLayoutGuide type="bottom" id="lrJ-KC-ONB"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="LBD-Lg-SX9">
+                    <view key="view" contentMode="scaleToFill" id="fB2-Xl-McD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vPd-UR-T4i">
-                                <frame key="frameInset" width="375" height="659"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="H8L-FT-9yC">
+                                <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="completedTodoItemCell" id="wUd-wr-sZB">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="completedTodoItemCell" id="3PU-HP-BEH">
                                         <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wUd-wr-sZB" id="pAw-YK-7nG">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3PU-HP-BEH" id="D2x-wS-W2v">
                                             <frame key="frameInset" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
@@ -91,14 +91,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Completed Todo Items" id="aiv-q1-00x"/>
+                    <navigationItem key="navigationItem" title="Completed todo items" id="bqR-fm-cY2"/>
                     <connections>
-                        <outlet property="tableView" destination="vPd-UR-T4i" id="Wj6-BZ-KHa"/>
+                        <outlet property="tableView" destination="H8L-FT-9yC" id="Xc3-ea-To0"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pc2-vR-yn9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jJ8-cX-89C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1071.2" y="781.25937031484261"/>
+            <point key="canvasLocation" x="1079.2" y="787.55622188905556"/>
         </scene>
         <!--Add New Todo Item-->
         <scene sceneID="IU4-f6-xqt">
